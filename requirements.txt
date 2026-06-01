@@ -1,0 +1,12 @@
+# EnergyGuard-AI 依赖 - 零基础友好，核心库轻量
+streamlit>=1.32.0
+pandas>=2.0.0
+numpy>=1.24.0
+plotly>=5.18.0
+python-dotenv>=1.0.0
+# 可选：启用 OpenAI/Grok 智能分析（推荐用于更好建议）
+openai>=1.30.0
+# 如需导出 PDF 报告（可选）
+# reportlab>=4.0.0
+# 开发测试
+pytest>=7.4.0
