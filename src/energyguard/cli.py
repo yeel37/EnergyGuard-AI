@@ -161,7 +161,7 @@ def main():
   # 生成带AI建议的完整报告
   python -m energyguard.cli report --output my_report.csv
 
-更多帮助: https://github.com/你的用户名/EnergyGuard-AI
+更多帮助: https://github.com/yeel37/EnergyGuard-AI
         """
     )
     parser.add_argument("--data", "-d", type=str, default=None,

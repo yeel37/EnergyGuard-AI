@@ -1,1 +1,3 @@
-Screenshots will be added in future releases. Run locally for live demo.
+# Screenshots
+
+这个目录保存 EnergyGuard-AI 的实际运行截图。

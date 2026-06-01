@@ -5,8 +5,9 @@
 
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.32%2B-FF4B4B.svg)](https://streamlit.io/)
+[![Python tests](https://github.com/yeel37/EnergyGuard-AI/actions/workflows/python-tests.yml/badge.svg)](https://github.com/yeel37/EnergyGuard-AI/actions/workflows/python-tests.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub stars](https://img.shields.io/github/stars/你的用户名/EnergyGuard-AI?style=social)](https://github.com/你的用户名/EnergyGuard-AI/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/yeel37/EnergyGuard-AI?style=social)](https://github.com/yeel37/EnergyGuard-AI/stargazers)
 
 **核心价值**：导入电费账单 → AI自动找出异常月份 → 预测下月用电 → 给出**可立即执行**的个性化节能建议 → 每月省50-300元不是梦！
 
@@ -34,7 +35,7 @@
 ### 第 2 步：克隆项目并进入目录
 
 ```bash
-git clone https://github.com/你的用户名/EnergyGuard-AI.git
+git clone https://github.com/yeel37/EnergyGuard-AI.git
 cd EnergyGuard-AI
 ```
 
@@ -94,7 +95,7 @@ python -m energyguard.cli report
 
 ---
 
-## 📸 界面预览（实际运行截图占位）
+## 📸 界面预览
 
 **Streamlit 主界面**（趋势图 + 异常标记 + 一键建议）
 
@@ -190,6 +191,12 @@ python tests/test_energyguard.py
 ```
 
 所有测试均可离线运行。
+
+GitHub Actions 会在每次 push 和 pull request 时自动运行测试，状态可在仓库顶部徽章查看。
+
+## 🗓️ 更新日志
+
+项目维护记录见 [CHANGELOG.md](CHANGELOG.md)。
 
 ---
 
